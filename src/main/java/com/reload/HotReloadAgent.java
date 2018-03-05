@@ -23,6 +23,9 @@ public class HotReloadAgent {
 		} catch (UnmodifiableClassException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
 		}
     }
 }

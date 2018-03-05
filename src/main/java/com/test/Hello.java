@@ -8,5 +8,6 @@ public class Hello {
 	}
 	
 	public void sayHello1(){
+		System.out.println("这是jar里面的");
 	}
 }
